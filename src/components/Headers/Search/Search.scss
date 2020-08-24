@@ -1,0 +1,43 @@
+$violet:rgb(171, 98, 240);
+.search-container{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-top: 1.3rem;
+    background-color: orangered;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 5rem;
+    height: 3rem;
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/search.png');
+    background-color: $violet;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    border: none;
+    
+}
+.button:focus{
+    outline: none;
+}
+.input{
+    width:50vw;
+    height:3.5rem;
+    border: none;
+    margin: auto;
+    background-color: rgb(224, 217, 217);
+    padding-left: 1rem;
+    margin-right: -5.5rem;
+   
+}
+::-webkit-input-placeholder{
+    padding-left: 1rem;
+    color: rgb(45, 45, 48);
+}
+.input:focus{
+    outline: none;
+}

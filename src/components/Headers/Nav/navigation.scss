@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.nav-container{
+    height: 3rem;
+    width: 100%;  
+}
+.button-register{
+    height: 5rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.daftar,.daftar:focus{
+    padding: 1.3rem 2rem ;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(13, 13, 14);
+    color: white;
+    margin-right: 1rem;
+    outline: none;
+}
+.login,.login:focus{
+    padding: 1.1rem 2rem;
+    border-radius: 3px;
+    border: none;
+    background-color: white ;
+    color: rgb(13, 13, 14);
+    outline: none;
+}
+@media screen and (max-width:1200px) {
+    .button-register{
+        height: 5rem;
+        width: 95%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+}
+@media screen and (max-width:850px) {
+    .button-register{
+        height: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;      
+    }
+}
+
+
